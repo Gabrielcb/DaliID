@@ -1,0 +1,98 @@
+Git Branch: 32768
+0
+Num GPU's: 1
+Allocated GPU's for model: [0]
+Nossa Senhora de Guadalupe
+Dataset      #Gallery Samples    #Gallery IDs    #Gallery Cameras    #Query Samples    #Query IDs    #Query Cameras
+---------  ------------------  --------------  ------------------  ----------------  ------------  ----------------
+Market                  15913             751                   6              3368           750                 6
+Extraction features with both GAP + GMP for Baseline ...
+Features extracted in 6.77 seconds
+Features extracted in 5.68 seconds
+Features extracted in 19.37 seconds
+Features extracted in 17.99 seconds
+Obtaining metrics concatenation ...
+Computing CMC and mAP ...
+** Results **
+mAP: 87.82%
+CMC curve
+Rank-1  : 95.04%
+Rank-5  : 98.01%
+Rank-10 : 98.75%
+Rank-20 : 99.26%
+Computing CMC and mAP ...
+** Results **
+mAP: 86.70%
+CMC curve
+Rank-1  : 94.69%
+Rank-5  : 97.80%
+Rank-10 : 98.75%
+Rank-20 : 99.35%
+Computing CMC and mAP ...
+** Results **
+mAP: 86.17%
+CMC curve
+Rank-1  : 94.21%
+Rank-5  : 97.77%
+Rank-10 : 98.52%
+Rank-20 : 98.93%
+Obtaining metrics for simple ensemble ...
+Computing CMC and mAP ...
+** Results **
+mAP: 87.84%
+CMC curve
+Rank-1  : 95.01%
+Rank-5  : 98.10%
+Rank-10 : 98.78%
+Rank-20 : 99.20%
+Obtaining metrics using GAP to get magnitudes and weight features (result provided in the paper) ...
+gap
+Features extracted in 6.33 seconds
+gap
+Features extracted in 5.70 seconds
+gap
+Features extracted in 18.13 seconds
+gap
+Features extracted in 18.84 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 87.84%
+CMC curve
+Rank-1  : 94.95%
+Rank-5  : 98.04%
+Rank-10 : 98.81%
+Rank-20 : 99.20%
+Obtaining metrics using GMP to get magnitudes and weight features ...
+gmp
+Features extracted in 7.11 seconds
+gmp
+Features extracted in 6.57 seconds
+gmp
+Features extracted in 18.73 seconds
+gmp
+Features extracted in 18.83 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 87.85%
+CMC curve
+Rank-1  : 95.01%
+Rank-5  : 98.01%
+Rank-10 : 98.81%
+Rank-20 : 99.23%
+Obtaining metrics using Both (GAP+GMP) to get magnitudes and weight features ...
+both
+Features extracted in 6.69 seconds
+both
+Features extracted in 6.82 seconds
+both
+Features extracted in 18.77 seconds
+both
+Features extracted in 19.69 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 87.85%
+CMC curve
+Rank-1  : 94.98%
+Rank-5  : 97.98%
+Rank-10 : 98.81%
+Rank-20 : 99.23%
