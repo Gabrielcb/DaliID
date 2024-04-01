@@ -62,7 +62,6 @@ def main(gpu_ids, img_height, img_width, model_name, model_path_clean, model_pat
     datasets_descriptions.append([dataset, gallery_size, num_gallery_ids, num_gallery_cameras, 
                                             query_size, num_queries_ids, num_queries_cameras])
 
-    print("Nossa Senhora de Guadalupe")
     print(tabulate(datasets_descriptions, headers=['Dataset', '#Gallery Samples', '#Gallery IDs', '#Gallery Cameras',
                                                                 '#Query Samples', '#Query IDs', '#Query Cameras']))
 
